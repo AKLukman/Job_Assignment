@@ -40,32 +40,16 @@
   margin: 8px;
   cursor: pointer;
   border-radius: 5px;
-  border: 1px solid orange;
-  color: gray;
+  border: 1px solid #2b2eff;
+  color: #2b2eff;
 }
 
-.pagination {
-  text-align: center;
-  margin-top: 20px;
-}
-.pagination button {
-  margin-right: 10px;
-  background-color: white;
-  border: 1px solid orange;
-  padding: 10px;
-}
-
-.pagination .selected {
-  background-color: orange;
+.paginationBttns a:hover {
   color: white;
+  background-color: #2b2eff;
 }
 
-/* Mobile device */
-
-@media only screen and (max-width: 688px) {
-  .product-conatiner {
-    grid-template-columns: repeat(1, 1fr);
-    text-align: center;
-    margin: 10px 10px;
-  }
+.paginationActive a {
+  color: white;
+  background-color: #2b2eff;
 }
